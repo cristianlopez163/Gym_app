@@ -31,5 +31,14 @@ public class empleado : persona
         this.cargo = cargo;
     }
 
+    public void calcularsueldo(string tipo)
+    {
+        Console.WriteLine(this.sueldo);
+    }
+    public void calcularsueldo(double descuento)
+    {
+        Console.WriteLine(this.sueldo * descuento);
+    }
+
     
 }
