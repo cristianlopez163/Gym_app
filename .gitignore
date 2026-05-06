@@ -1,0 +1,44 @@
+## --- Carpetas de Compilación y Binarios ---
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## --- .NET Core / .NET 5+ ---
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## --- Visual Studio ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## --- NuGet ---
+# No subas los paquetes, se restauran al compilar
+packages/
+*.nupkg
+# Excluir la carpeta global de paquetes si está en el proyecto
+node_modules/
+
+## --- Herramientas de Análisis y Testing ---
+TestResults/
+*.opencover.xml
+*.g.cs
+*.g.i.cs
+
+## --- Archivos del Sistema y de Usuario ---
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+## --- Variables de Entorno (¡IMPORTANTE!) ---
+# Nunca subas tus secretos o configuraciones locales
+.env
+appsettings.Development.json
+appsettings.Local.json

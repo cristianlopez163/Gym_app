@@ -25,7 +25,7 @@ public class empleado : persona
         double sueldo,
         string cargo
     )
-    :base(nombre, documento, correo, edad);
+    :base(nombre, documento, correo, edad)
     {
         this.sueldo = sueldo;
         this.cargo = cargo;
