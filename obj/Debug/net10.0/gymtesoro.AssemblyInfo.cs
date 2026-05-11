@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gymtesoro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99916ab97925489590e0ed92db9b7263980162f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39764f835422a33ef324670285ad6bde22c48e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("gymtesoro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gymtesoro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

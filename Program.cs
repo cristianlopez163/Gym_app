@@ -1,28 +1,10 @@
-﻿public class Program
-{
-    static void Main()
-    {
-        empleado emp1 = new empleado(
-            "Juan",
-            "101000110",
-            "JuanQmail.com",
-            22,
-            1000.0,
-            "Jefe de personal"
-        );
+﻿Cliente cliente1 = new Cliente(
+    "Juan",
+    "12345",
+    "juan@gmail.com",
+    25,
+    "Premium",
+    "2025-05-10"
+);
 
-        Console.WriteLine(emp1.cargo);
-
-        emp1.Sueldo = 1200.35;
-
-        Console.WriteLine(emp1.Sueldo);
-
-        Console.WriteLine("=======================");
-
-        emp1.calcularsueldo("Hola");
-        
-        Console.WriteLine("=======================");
-
-        emp1.calcularsueldo(0.5);
-    }
-}
+cliente1.MostrarInfo();
